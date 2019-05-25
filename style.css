@@ -1,0 +1,204 @@
+body{
+    background: black;
+    text-align: center;
+}
+
+/* HEADER */
+
+.header{
+    display: block;
+    text-align: center;
+    padding: 15px;
+    width: 300px;
+    margin: 0 auto;
+    outline-style: auto;
+    outline-color: rgb(46, 247, 46);
+    opacity: 0.8;
+}
+.header img{
+    height: 80px;
+}
+
+.header a{
+    font-family: monospace;
+    font-size: 30px;
+    display: inline;
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(20, 214, 20);
+}
+
+.header:hover{
+    outline-style: dashed;
+    outline-width: 2px;
+    background: rgb(27, 26, 26);
+    opacity: 1;
+}
+
+.header a:hover{
+    font-size: 35px;
+    color: rgb(2, 252, 2);
+}
+/* SECTION */
+
+.section{
+    display: block;
+    background: rgba(51, 43, 43, 0.3);
+    height: auto;
+    text-align: center;
+    margin: 50px 10%;
+}
+
+.section img{
+    margin: 50px;
+    width: 50%;
+    height: auto;
+    outline-style: auto;
+    outline-color: rgb(81, 255, 13);
+}
+
+.intro{
+    padding: 10px 30px 30px 30px;
+    font-size: 20px;
+    color:rgb(81, 255, 13);
+    font-family: monospace;
+    opacity: 0.9;
+}
+
+@keyframes resize{
+    0% {transform: scale(1)}
+    50% {transform: scale(1.1)}
+    100% {transform: scale(1)}
+}
+
+.section img:hover{
+    animation-name: resize;
+    animation-duration: 1s;
+}
+
+/*PROJECTS*/
+
+.project{
+    background: rgba(51, 43, 43, 0.3);
+    height: 300px;
+    width: auto;
+    margin: 20px 15%;
+
+}
+
+.project p{
+    text-align: center;
+    font-family: monospace;
+    color: rgb(81, 255, 13);
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 40px 0px 0px 0px;
+}
+
+.projects {
+    display: flex;
+    padding: 30px 0px 100px 0px;
+}
+
+.projects div{
+    margin: auto;
+}
+
+.project img{
+    height: 100px;
+    width: 100px;
+    opacity: 0.8;
+    outline: auto rgb(81, 255, 13);
+    margin: auto;
+    padding-inline:auto; 
+}
+
+
+@keyframes flip{
+    0% {transform: rotatey(0deg)}
+    100%{transform: rotatey(180deg)} 
+}
+@keyframes sizeup{
+    0% {transform: scale(1)}
+    100%{transform: scale(1.5)}
+}
+
+.pro1:hover {
+    animation:flip 1s,
+              sizeup 1s 0.75s forwards;
+    
+    opacity: 1;
+}
+
+.pro2:hover {
+    animation:flip 1s,
+              sizeup 1s 0.75s forwards;
+    
+    opacity: 1;
+}
+
+.pro3:hover {
+    animation:flip 1s,
+              sizeup 1s 0.75s forwards;
+    
+    opacity: 1;
+}
+
+    /*contact*/
+.contact{
+    display: block;
+    background-color: rgba(81, 255, 13, 0.918); 
+    height: 90px;
+    width: 300px;
+    margin: 20px auto 0px auto;
+}
+
+.contact img{
+    height: 50px;
+    width: 50px;
+    opacity: 0.5;
+}
+
+.contact ul{
+    list-style: none;
+    display: flex;
+    padding: 20px 0px;
+}
+
+.contact li{
+    margin: auto;
+}
+
+.contact img:hover{
+    opacity: 1;
+}
+
+.info{    width: 400px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+.info p{
+    font-family: monospace;
+    color: rgb(81, 255, 13);
+    margin: 10px auto;
+    font-size: 20px;
+}
+/*Responsive rules*/
+@media screen and (max-width: 660px){
+    .project{
+        height: 550px;
+    }
+
+    .projects {
+        width: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects div{
+        margin-bottom: 30px;
+    }
+}

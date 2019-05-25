@@ -1,0 +1,52 @@
+body{
+    background: black;
+}
+
+.button img{
+    height: 70px;
+    margin: 20px;
+    opacity: 0.9;
+}
+
+.button img:hover{
+    height: 80px;
+    opacity: 1;
+}
+
+.name{
+    font-size: 60px;
+    font-family: monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(81, 255, 13)
+}
+
+.main {
+    height: 5px;
+}
+
+hr{
+    color: rgb(81, 255, 13);
+    height: 1px;
+    background: rgb(81, 255, 13);
+}
+
+.img{
+    display: flex;
+    margin: 30px auto;
+}
+
+.content{
+    text-align: center;
+    color: rgb(81, 255, 13);
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.items{
+    color: rgb(81, 255, 13);
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    display: block;
+}
