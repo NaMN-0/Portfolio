@@ -17,6 +17,7 @@ body{
 }
 .header img{
     height: 80px;
+    background-color: rgb(46, 247, 46);
 }
 
 .header a{
@@ -108,7 +109,6 @@ body{
     height: 100px;
     width: 100px;
     opacity: 0.8;
-    outline: auto rgb(81, 255, 13);
     margin: auto;
     padding-inline:auto; 
 }
@@ -162,18 +162,22 @@ body{
 .contact ul{
     list-style: none;
     display: flex;
-    padding: 20px 0px;
 }
 
 .contact li{
-    margin: auto;
+    margin: 15px 13px;    
+}
+
+.contact li:first-child{
+    margin-left: none;
 }
 
 .contact img:hover{
     opacity: 1;
 }
 
-.info{    width: 400px;
+.info{   
+    width: 400px;
     text-align: center;
     display: flex;
     margin: auto;
@@ -187,6 +191,7 @@ body{
 }
 /*Responsive rules*/
 @media screen and (max-width: 660px){
+
     .project{
         height: 550px;
     }
@@ -201,4 +206,47 @@ body{
     .projects div{
         margin-bottom: 30px;
     }
+
+    .header img{
+        height: 30px;
+    }
+
+    .header {
+        width: 170px;
+        height: 120px;
+    }
+
+    .header a{
+        font-size: 20px;
+    }
+
+    .header a:hover{
+        font-size: 22px;
+    }
+
+    .contact{
+        height: 60px;
+        width: 165px;
+    }
+
+    .contact ul{
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact img{
+        height: 30px;
+        width: 30px;
+        margin: auto;
+    }
+
+    .info p{
+        font-size: 15px;
+    }
+
+    .intro{
+        font-size: 15px;
+    }
+
 }
