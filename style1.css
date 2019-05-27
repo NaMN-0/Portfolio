@@ -14,7 +14,7 @@ body{
 }
 
 .name{
-    font-size: 60px;
+    font-size: 50px;
     font-family: monospace;
     text-transform: uppercase;
     text-align: center;
@@ -40,13 +40,37 @@ hr{
     text-align: center;
     color: rgb(81, 255, 13);
     font-family: monospace;
-    font-size: 20px;
 }
 
 .items{
     color: rgb(81, 255, 13);
-    font-size: 30px;
+    font-size: 20px;
     font-family: monospace;
     text-align: center;
     display: block;
+}
+
+/*responsive rules*/
+
+@media screen and (max-width: 650px){
+
+    .name{
+        font-size: 30px;
+    }
+
+    .items{
+        font-size: 15px;
+    }
+
+    .main{
+        height: 3px;
+    }
+
+    .button img{
+        height: 40px;
+    }
+
+    .button img:hover{
+        height: 50px;
+    }
 }
