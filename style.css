@@ -185,6 +185,7 @@ body{
 
 .info p{
     font-family: monospace;
+    text-align: center;
     color: rgb(81, 255, 13);
     margin: 10px auto;
     font-size: 20px;
