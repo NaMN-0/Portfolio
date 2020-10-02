@@ -9,15 +9,15 @@ body{
     display: block;
     text-align: center;
     padding: 15px;
-    width: 300px;
+    width: 310px;
     margin: 0 auto;
     outline-style: auto;
-    outline-color: rgb(46, 247, 46);
+    outline-color: rgb(50, 247, 46);
     opacity: 0.8;
 }
 .header img{
-    height: 80px;
-    background-color: rgb(46, 247, 46);
+    height: 83px;
+    background-color: rgb(50, 247, 46);
 }
 
 .header a{
@@ -47,7 +47,7 @@ body{
     background: rgba(51, 43, 43, 0.3);
     height: auto;
     text-align: center;
-    margin: 50px 10%;
+    margin: 50px 12%;
 }
 
 .section img{
@@ -55,7 +55,7 @@ body{
     width: 50%;
     height: auto;
     outline-style: auto;
-    outline-color: rgb(81, 255, 13);
+    outline-color: rgb(76, 255, 13);
 }
 
 .intro{
@@ -80,10 +80,10 @@ body{
 /*PROJECTS*/
 
 .project{
-    background: rgba(51, 43, 43, 0.3);
+    background: rgba(51, 43, 43, 0.4);
     height: 300px;
     width: auto;
-    margin: 20px 15%;
+    margin: 22px 15%;
 
 }
 
@@ -125,21 +125,21 @@ body{
 
 .pro1:hover {
     animation:flip 1s,
-              sizeup 1s 0.75s forwards;
+              sizeup 1s 0.70s forwards;
     
     opacity: 1;
 }
 
 .pro2:hover {
     animation:flip 1s,
-              sizeup 1s 0.75s forwards;
+              sizeup 1s 0.70s forwards;
     
     opacity: 1;
 }
 
 .pro3:hover {
     animation:flip 1s,
-              sizeup 1s 0.75s forwards;
+              sizeup 1s 0.70s forwards;
     
     opacity: 1;
 }
